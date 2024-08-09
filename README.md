@@ -4,7 +4,7 @@
 
 🐻 Bearcub without RSS
 
-Please refer to the [original Bearcub](https://github.com/clente/hugo-bearcub) Repositories for Documentation
+Please refer to the [original Bearcub](https://github.com/clente/hugo-bearcub) Repository for Documentation
 
 ## Installation
 
