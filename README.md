@@ -32,11 +32,11 @@ echo 'theme = "hugo-bearcub"' >> hugo.toml
 ## Features
 
 Like [Bear Blog](https://bearblog.dev), this theme:
+
 - Is free and open source
 - Looks great on any device
 - Makes tiny (~5kb), optimized, and awesome pages
 - Has no trackers, ads, or scripts
-- Automatically generates an RSS feed
 
 But that's not all! **Bear Cub** is also...
 
@@ -100,8 +100,6 @@ Every once in a while, as I keep using **Bear Cub**, I notice that there is some
 functionality missing. Currently, these are the "advanced features" that I have
 already implemented:
 
-- Full-text RSS feed: an enhanced RSS feed template that includes the (properly
-  encoded) full content of your posts in the feed itself.
 - Static content: you can create empty blog entries that act as links to static
   files by including `link: "{url}"` in a post's [front
   matter](https://gohugo.io/content-management/front-matter/). You can also add
@@ -230,11 +228,11 @@ enableRobotsTXT = true
     twitter = "example" # Twitter handle (without '@')
     facebook_admin = "0000000000" # Facebook Page Admin ID
 
-  # Author metadata. This is mostly used for the RSS feed of your site, but the
-  # email is also added to the footer of each post. You can hide the "reply to"
+  # Author metadata.
+  # The email is also added to the footer of each post. You can hide the "reply to"
   # link by using a `hideReply` param in front matter.
   [params.author]
-    name = "John Doe" # Your name as shown in the RSS feed metadata
+    name = "John Doe" # Your name as shown
     email = "me@example.com" # Added to the footer so readers can reply to posts
 ```
 
